@@ -1,10 +1,10 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 //problem https://www.hackerrank.com/challenges/a-chocolate-fiesta/problem;
 int main()
 {
-    int even,odd,N,n,e,o;
+    int even = 0,odd = 0,N,n,e,o;
     cin >> N;
     for (int i = 0; i<N; i++)
     {
